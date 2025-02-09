@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        xs: "425px",
+      },
       animation: {
         "spin-slow": "spin 10s linear infinite",
       },

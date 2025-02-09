@@ -46,7 +46,7 @@ const CustomiseSection = () => {
           <TextElement
             firstText="Customise it to"
             secondText="your needs"
-            className="lg:text-6xl xl:text-7xl"
+            className="text-3xl xs:text-5xl lg:text-6xl xl:text-7xl"
           />
           <p className="w-full md:w-10/12 mt-10 text-center md:text-left">
             Customise the app with plugins, custom themes and multiple text
