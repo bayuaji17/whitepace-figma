@@ -8,9 +8,20 @@ export default {
   ],
   theme: {
     extend: {
+      animation: {
+        "spin-slow": "spin 10s linear infinite",
+      },
+      fontFamily: {
+        inter: "var(--font-inter)",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "dark-blue": "#043873",
+        "light-blue": "#4F9CF9",
+        "secondary-yellow": "#FFE492",
+        "secondary-blue": "#A7CEFC",
+        "secondary-black": "#212529",
       },
     },
   },
